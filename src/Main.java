@@ -27,6 +27,7 @@ public class Main {
         Account firstUserFirstAccount = new Account(TypeOfAccount.BUSINESS);
         Account secondUserFirstAccount = new Account(TypeOfAccount.SAVING);
         Account thirdUserFirstAccount = new Account(TypeOfAccount.CHEQUING);
+        thirdUserFirstAccount.changeType(TypeOfAccount.BUSINESS);
 
 
         firstBranch.addCustomer(firstUser);
