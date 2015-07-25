@@ -63,6 +63,7 @@ public class Main {
         thirdUser.completeTransaction(TypeOfTransaction.DEPOSIT, null, 600099, 0, 0);
        // System.out.println("");
     //    thirdUser.changeAccount(1, TypeOfAccount.SAVING);
+        //added some comment
 
         System.out.println("firstUser.completeTransaction(TypeOfTransaction.TRANSFER, thirdUser, 2000, 0, 0);");
         firstUser.completeTransaction(TypeOfTransaction.TRANSFER, thirdUser, 2000, 0, 0);
