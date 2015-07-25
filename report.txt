@@ -1,0 +1,84 @@
+=========================
+ Bank: KazanBankNumberOne
+
+**********************
+ branch 0: FirstBranch  manager is Manager: firstName: Oleg Ivanov, passport:  . 
+______________________________________
+Customer 0: firstName: FirstCustomer, passport:  . 
+Transaction idTransaction: 2, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 3, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+TRANSFER from branch 0 to 0
+Transaction idTransaction: 4, idUserAccount: 2, idReceiveAccount: 3, TypeOfTransaction: TRANSFER.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 5, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+TRANSFER from branch 0 to 1
+Transaction idTransaction: 8, idUserAccount: 2, idReceiveAccount: 5, TypeOfTransaction: TRANSFER.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 9, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+______________________________________
+Customer 1: firstName: SecondCustomer, passport:  . 
+Transaction idTransaction: 1, idUserAccount: 3, idReceiveAccount: 3, TypeOfTransaction: WITHDRAW.
+status: fail
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 6, idUserAccount: 3, idReceiveAccount: 3, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+**********************
+ branch 1: SecondBranch  manager is Manager: firstName: Mark Evan, passport:  . 
+______________________________________
+Customer 0: firstName: Mila, passport: 13691369. 
+Transaction idTransaction: 7, idUserAccount: 5, idReceiveAccount: 5, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 10, idUserAccount: 5, idReceiveAccount: 5, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
++All TRANSACTION OF BANK:                        +
+----------------
+Branch: 0
+Transaction idTransaction: 2, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 3, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+TRANSFER from branch 0 to 0
+Transaction idTransaction: 4, idUserAccount: 2, idReceiveAccount: 3, TypeOfTransaction: TRANSFER.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 5, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+TRANSFER from branch 0 to 1
+Transaction idTransaction: 8, idUserAccount: 2, idReceiveAccount: 5, TypeOfTransaction: TRANSFER.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 9, idUserAccount: 2, idReceiveAccount: 2, TypeOfTransaction: WITHDRAW.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 1, idUserAccount: 3, idReceiveAccount: 3, TypeOfTransaction: WITHDRAW.
+status: fail
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 6, idUserAccount: 3, idReceiveAccount: 3, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+----------------
+Branch: 1
+Transaction idTransaction: 7, idUserAccount: 5, idReceiveAccount: 5, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
+Transaction idTransaction: 10, idUserAccount: 5, idReceiveAccount: 5, TypeOfTransaction: DEPOSIT.
+status: complete
+ ~~~~~~~~~~~~~~~~~~~~~~~ 
