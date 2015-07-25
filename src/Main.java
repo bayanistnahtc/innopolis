@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * Created by R2 on 21.07.2015.
  */
-public class Main {
+public class    Main {
     public static void main(String[] args) {
 
         Bank bank = new Bank("KazanBankNumberOne");
@@ -63,6 +63,7 @@ public class Main {
         thirdUser.completeTransaction(TypeOfTransaction.DEPOSIT, null, 600099, 0, 0);
        // System.out.println("");
     //    thirdUser.changeAccount(1, TypeOfAccount.SAVING);
+        //added some comment
 
 
         //add comments in master branch
